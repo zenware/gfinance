@@ -1,0 +1,54 @@
+{
+  "name": "gfinance",
+  "version": "0.0.0",
+  "description": "A way to access the now deprecated Google Finance API",
+  "homepage": "https://github.com/zenware/gfinance",
+  "author": {
+    "name": "Jay Looney <jay.m.looney@gmail.com>",
+    "email": "jay.m.looney@gmail.com",
+    "url": "http://www.jaylooney.us"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "google",
+    "finance",
+    "stocks",
+    "stock",
+    "market",
+    "data",
+    "gfin",
+    "gfinance"
+  ],
+  "devDependencies": {
+    "eslint-config-xo-space": "^0.7.0",
+    "babel-eslint": "^4.1.6",
+    "eslint-plugin-babel": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "del": "^2.0.2",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "git@github.com:zenware/gfinance.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
