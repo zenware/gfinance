@@ -13,7 +13,11 @@ $ npm install --save gfinance
 var gfinance = require('gfinance');
 
 gfinance.get(['GOOG'], function (err, res) {
-  console.log(res);
+  if (err) {
+    console.error(err);
+  } else {
+    console.log(res);
+  }
 }
 ```
 ## License
