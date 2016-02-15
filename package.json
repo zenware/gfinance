@@ -1,6 +1,6 @@
 {
   "name": "gfinance",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A way to access the now deprecated Google Finance API",
   "homepage": "https://github.com/zenware/gfinance",
   "author": {
