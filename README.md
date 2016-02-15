@@ -12,7 +12,9 @@ $ npm install --save gfinance
 ```js
 var gfinance = require('gfinance');
 
-gfinance('Rainbow');
+gfinance.get(['GOOG'], function (err, res) {
+  console.log(res);
+}
 ```
 ## License
 
