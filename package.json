@@ -31,7 +31,7 @@
     "gulp": "^3.9.0",
     "gulp-babel": "^5.1.0",
     "gulp-coveralls": "^0.1.0",
-    "gulp-eslint": "^1.0.0",
+    "gulp-eslint": "^5.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
     "gulp-istanbul": "^0.10.3",
     "gulp-mocha": "^2.0.0",
