@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - "7"
+  - "12.7.0"
+  - "lts/10.16.1"
 before_script:
   - npm install -g gulp-cli
 script: gulp
