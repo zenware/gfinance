@@ -24,7 +24,7 @@
   ],
   "devDependencies": {
     "babel-core": "^5.5.0",
-    "babel-eslint": "^4.1.6",
+    "babel-eslint": "^9.0.0",
     "del": "^2.0.2",
     "eslint-config-xo-space": "^0.7.0",
     "eslint-plugin-babel": "^3.0.0",
