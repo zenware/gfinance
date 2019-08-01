@@ -37,7 +37,7 @@
     "gulp-mocha": "^2.0.0",
     "gulp-plumber": "^1.0.0",
     "isparta": "^3.0.3",
-    "mocha-sinon": "^1.1.5",
+    "mocha-sinon": "^2.1.0",
     "sinon": "^1.17.3"
   },
   "eslintConfig": {
