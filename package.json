@@ -1,58 +1,58 @@
 {
-  "name": "gfinance",
-  "version": "0.0.4",
-  "description": "A way to access the now deprecated Google Finance API",
-  "homepage": "https://github.com/zenware/gfinance",
-  "author": {
-    "name": "Jay Looney <jay.m.looney@gmail.com>",
-    "email": "jay.m.looney@gmail.com",
-    "url": "http://www.jaylooney.us"
-  },
-  "files": [
-    "dist"
-  ],
-  "main": "dist/index.js",
-  "keywords": [
-    "google",
-    "finance",
-    "stocks",
-    "stock",
-    "market",
-    "data",
-    "gfin",
-    "gfinance"
-  ],
-  "devDependencies": {
-    "babel-core": "^5.5.0",
-    "babel-eslint": "^9.0.0",
-    "del": "^2.0.2",
-    "eslint-config-xo-space": "^0.7.0",
-    "eslint-plugin-babel": "^5.3.0",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^6.1.3",
-    "gulp-coveralls": "^0.1.0",
-    "gulp-eslint": "^6.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-mocha": "^6.0.0",
-    "gulp-plumber": "^1.0.0",
-    "mocha-sinon": "^2.1.0",
-    "sinon": "^7.3.2"
-    "gulp-run-command": "0.0.9",
-  },
-  "eslintConfig": {
-    "extends": "xo-space/esnext",
-    "env": {
-      "mocha": true
-    }
-  },
-  "repository": "git@github.com:zenware/gfinance.git",
-  "scripts": {
-    "prepare": "gulp prepublish",
-    "test": "mocha
-    "coverage": "nyc npm run test"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "request": "^2.69.0"
-  }
+	"name": "gfinance",
+	"version": "0.0.4",
+	"description": "A way to access the now deprecated Google Finance API",
+	"homepage": "https://github.com/zenware/gfinance",
+	"author": {
+		"name": "Jay Looney <jay.m.looney@gmail.com>",
+		"email": "jay.m.looney@gmail.com",
+		"url": "http://www.jaylooney.us"
+	},
+	"files": [
+		"dist"
+	],
+	"main": "dist/index.js",
+	"keywords": [
+		"google",
+		"finance",
+		"stocks",
+		"stock",
+		"market",
+		"data",
+		"gfin",
+		"gfinance"
+	],
+	"devDependencies": {
+		"babel-core": "^5.5.0",
+		"babel-eslint": "^9.0.0",
+		"del": "^2.0.2",
+		"eslint-config-xo-space": "^0.7.0",
+		"eslint-plugin-babel": "^5.3.0",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^6.1.3",
+		"gulp-coveralls": "^0.1.0",
+		"gulp-eslint": "^6.0.0",
+		"gulp-exclude-gitignore": "^1.0.0",
+		"gulp-mocha": "^6.0.0",
+		"gulp-plumber": "^1.0.0",
+		"mocha-sinon": "^2.1.0",
+		"sinon": "^7.3.2",
+		"gulp-run-command": "0.0.9"
+	},
+	"eslintConfig": {
+		"extends": "xo-space/esnext",
+		"env": {
+			"mocha": true
+		}
+	},
+	"repository": "git@github.com:zenware/gfinance.git",
+	"scripts": {
+		"prepare": "gulp prepublish",
+		"test": "mocha",
+		"coverage": "nyc npm run test"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"request": "^2.69.0"
+	}
 }
