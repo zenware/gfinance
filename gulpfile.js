@@ -6,10 +6,8 @@ const eslint = require('gulp-eslint');
 const excludeGitignore = require('gulp-exclude-gitignore');
 const mocha = require('gulp-mocha');
 const plumber = require('gulp-plumber');
-const coveralls = require('gulp-coveralls');
 const babel = require('gulp-babel');
 const del = require('del');
-import run from "gulp-run-command";
 
 // Initialize the babel transpiler so ES2015 files gets compiled
 // when they're loaded
@@ -29,14 +27,6 @@ gulp.task('watch', () => {
 
 gulp.task('test-coverage', [run('npm i nyc')])
 gulp.task('test', ['test-coverage'])
-gulp.task('coveralls', ['test'], () => {
-  if (!process.env.CI) {
-    return undefined;
-  }
-
-  return gulp.src(path.join(__dirname, 'coverage/lcov.info'))
-    .pipe(coveralls());
-});
 
 gulp.task('babel', ['clean'],
   () => gulp.src('lib/**/*.js')
@@ -47,4 +37,4 @@ gulp.task('babel', ['clean'],
 gulp.task('clean', () => del('dist'));
 
 gulp.task('prepublish', ['babel']);
-gulp.task('default', ['static', 'test', 'coveralls']);
+gulp.task('default', ['static', 'test']);
