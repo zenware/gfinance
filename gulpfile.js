@@ -32,18 +32,18 @@ function clean() {
   return del('dist');
 }
 
-function defaultTask(cb) {
-  staticFiles();
-  test();
-  cb();
-}
-
-exports.build = series(
+const build = series(
   clean,
   staticFiles,
   prepublish,
   testCoverage
 );
 
+function defaultTask(cb) {
+  build();
+  cb();
+}
+
+exports.build = build;
 exports.default = defaultTask;
 
