@@ -51,7 +51,7 @@
   },
   "repository": "git@github.com:zenware/gfinance.git",
   "scripts": {
-    "prepare": "gulp prepublish",
+    "prepare": "gulp build",
     "test": "mocha",
     "coverage": "nyc npm run test"
   },
