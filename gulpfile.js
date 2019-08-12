@@ -8,7 +8,7 @@ const mocha = require('gulp-mocha');
 const plumber = require('gulp-plumber');
 const babel = require('gulp-babel');
 const del = require('del');
-import run from "gulp-run-command";
+const run = require('gulp-run-command').default
 
 // Initialize the babel transpiler so ES2015 files gets compiled
 // when they're loaded
