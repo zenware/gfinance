@@ -31,7 +31,7 @@ function jsTranspile() {
   // With Babel
   return src('lib/**/*.js')
     .pipe(babel())
-    .pipe(gulp.dest('dist'))
+    .pipe(dest('dist'))
 }
 
 function prepublish() {
