@@ -34,6 +34,10 @@ function jsTranspile() {
     .pipe(gulp.dest('dist'))
 }
 
+function prepublish() {
+  return jsTranspile()
+}
+
 function clean() {
   return del('dist');
 }
