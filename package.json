@@ -40,7 +40,7 @@
     "gulp-plumber": "^1.0.0",
     "gulp-run-command": "0.0.9",
     "mocha-sinon": "^2.1.0",
-    "sinon": "^7.3.2"
+    "sinon": "^9.0.2"
   },
   "eslintConfig": {
     "extends": "xo-space/esnext",
